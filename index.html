@@ -1,1 +1,185 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width, initial-scale=1.0"/><title>AI Constitution — Governance Before Deployment</title><meta name="description" content="A public initiative for AI regulation, democratic accountability, legal protection, and constitutional governance before deployment."/><link rel="canonical" href="https://ai-constitution.now/"/><meta property="og:title" content="AI Constitution — Governance Before Deployment"/><meta property="og:description" content="A public initiative for AI regulation, democratic accountability, legal protection, and constitutional governance before deployment."/><meta property="og:type" content="website"/><meta property="og:url" content="https://ai-constitution.now/"/><meta name="twitter:card" content="summary_large_image"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"/><link rel="stylesheet" href="style.css"/></head><body><main class="shell"><nav class="topbar"><a class="brand" href="index.html">AI Constitution</a><div class="nav"><a href="index.html">Home</a><a href="ai-regulation.html">AI Regulation</a><a href="democracy.html">Democracy</a><a href="legal-protection.html">Legal Protection</a><a href="education.html">Education</a></div><div class="lang"><a class="active" href="index.html">EN</a><a href="da.html">DA</a></div></nav><section class="hero"><div><p class="kicker">AI regulation · democratic accountability · legal protection</p><h1>Governance before deployment.</h1><p class="lead">AI systems increasingly influence public services, education, work, legal processes, and democratic life. The question is not only what AI can do. The question is who governs it, how decisions are documented, and how citizens can challenge systems that affect their lives.</p><p class="question">Should citizens have a greater role in governing AI systems?</p></div><div class="poll" data-poll="front"><h2>Should citizens have a greater role in governing AI systems?</h2><p>Register your position. Results are shown after you vote on this device.</p><div class="poll-options"><button data-choice="support">🟢 Support</button><button data-choice="undecided">⚪ Undecided</button><button data-choice="oppose">🔴 Oppose</button></div><div class="poll-results" aria-live="polite"></div></div></section><section class="section"><div class="section-head"><p class="kicker">Start here</p><h2>From AI regulation to constitutional governance</h2><p>This site is structured as a reasoning path: what we observe, what tensions emerge, what principles matter, and what alternative governance could look like.</p></div><div class="cards"><a class="card feature" href="ai-regulation.html"><small>Primary path</small><h3>AI Regulation & Constitutional Governance</h3><p>How do we regulate AI before systems become too embedded to question, audit, or correct?</p><strong>Explore regulation →</strong></a><a class="card" href="democracy.html"><small>Democracy</small><h3>Democratic Accountability</h3><p>Should citizens have a stronger role in governing systems that shape public decisions?</p><strong>Explore democracy →</strong></a><a class="card" href="legal-protection.html"><small>Rule of law</small><h3>Legal Protection & Recoverability</h3><p>What happens when automated systems make mistakes — and how can lawful situations be repaired?</p><strong>Explore legal protection →</strong></a><a class="card" href="education.html"><small>Children & young people</small><h3>Human-Centred AI in Education</h3><p>How can AI help recognise patterns in youth environments without replacing human relationships?</p><strong>Explore education →</strong></a><a class="card" href="digital-identity.html"><small>Citizenship</small><h3>Digital Sovereignty</h3><p>Who owns your digital traces, evidence history, and right to understand systems around you?</p><strong>Explore identity →</strong></a><a class="card" href="architecture.html"><small>Framework</small><h3>CDP, Core Axioms & Constitutional Architecture</h3><p>The underlying framework behind governance-before-deployment approaches.</p><strong>Open framework →</strong></a></div></section><section class="flow"><p class="kicker">How every track works</p><h2>You do not start with a product. You start with the problem.</h2><div class="flow-grid"><div class="flow-step"><span>1 · Observe</span><p>What is already happening?</p></div><div class="flow-step"><span>2 · Tension</span><p>Where do values, rights, capacity, and risk collide?</p></div><div class="flow-step"><span>3 · Principles</span><p>What must remain visible, accountable, and recoverable?</p></div><div class="flow-step"><span>4 · Alternatives</span><p>How could the system be governed differently?</p></div><div class="flow-step"><span>5 · Implementation</span><p>Examples of systems, models, and architectures that could support the alternative.</p></div></div></section></main><footer><span>AI Constitution · ai-constitution.now</span><span>Governance Before Deployment</span></footer><script src="script.js"></script></body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>AI Constitution — Governance Before Deployment</title>
+  <meta name="description" content="A public initiative for AI regulation, democratic accountability, legal protection, and constitutional governance before deployment."/>
+  <link rel="canonical" href="https://ai-constitution.now/"/>
+  <meta property="og:title" content="AI Constitution — Governance Before Deployment"/>
+  <meta property="og:description" content="A public initiative for AI regulation, democratic accountability, legal protection, and constitutional governance before deployment."/>
+  <meta property="og:type" content="website"/>
+  <meta property="og:url" content="https://ai-constitution.now/"/>
+  <meta name="twitter:card" content="summary_large_image"/>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+  <style>
+    .tension-lines {
+      margin: 0 0 1.75rem;
+      display: flex;
+      flex-direction: column;
+      gap: .2rem;
+    }
+    .tension-lines p {
+      font-family: "Playfair Display", Georgia, serif;
+      font-size: clamp(1.5rem, 2.8vw, 2.4rem);
+      line-height: 1.2;
+      margin: 0;
+      color: var(--text);
+      letter-spacing: -.03em;
+    }
+    .tension-lines .tension-question {
+      color: var(--cyan);
+      margin-top: .6rem;
+    }
+    .btn-explore {
+      display: inline-block;
+      margin-top: .5rem;
+      border: 1px solid rgba(45,212,191,.55);
+      background: rgba(45,212,191,.12);
+      border-radius: 999px;
+      padding: .9rem 1.4rem;
+      font-weight: 850;
+      font-size: .95rem;
+      color: var(--text);
+      transition: .18s ease;
+    }
+    .btn-explore:hover {
+      background: rgba(45,212,191,.22);
+      transform: translateY(-2px);
+    }
+  </style>
+</head>
+<body>
+<main class="shell">
+
+  <nav class="topbar">
+    <a class="brand" href="index.html">AI Constitution</a>
+    <div class="nav">
+      <a href="index.html">Home</a>
+      <a href="ai-regulation.html">AI Regulation</a>
+      <a href="democracy.html">Democracy</a>
+      <a href="legal-protection.html">Legal Protection</a>
+      <a href="education.html">Education</a>
+      <a href="digital-identity.html">Digital Identity</a>
+      <a href="architecture.html">Architecture</a>
+    </div>
+    <div class="lang">
+      <a class="active" href="index.html">EN</a>
+      <a href="da.html">DA</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <div>
+      <p class="kicker">AI regulation · democratic accountability · legal protection</p>
+      <h1>Governance before deployment.</h1>
+
+      <div class="tension-lines">
+        <p>AI recommends.</p>
+        <p>A human approves.</p>
+        <p>A citizen is affected.</p>
+        <p class="tension-question">Who is accountable?</p>
+      </div>
+
+      <p class="lead">This site is a structured reasoning path — from what we observe, through the tensions that emerge, to what governance could look like instead.</p>
+      <a class="btn-explore" href="ai-regulation.html">Explore the question →</a>
+    </div>
+
+    <div class="poll" data-poll="front">
+      <h2>Should citizens have a greater role in governing AI systems?</h2>
+      <p>A public pulse check — not a scientific survey. The question is whether governance should evolve alongside AI.</p>
+      <div class="poll-options">
+        <button data-choice="support">🟢 Support</button>
+        <button data-choice="undecided">⚪ Undecided</button>
+        <button data-choice="oppose">🔴 Oppose</button>
+      </div>
+      <div class="poll-results" aria-live="polite"></div>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="section-head">
+      <p class="kicker">Start here</p>
+      <h2>From AI regulation to constitutional governance</h2>
+      <p>This site is structured as a reasoning path: what we observe, what tensions emerge, what principles matter, and what alternative governance could look like.</p>
+    </div>
+    <div class="cards">
+      <a class="card feature" href="ai-regulation.html">
+        <small>Primary path</small>
+        <h3>AI Regulation & Constitutional Governance</h3>
+        <p>How do we regulate AI before systems become too embedded to question, audit, or correct?</p>
+        <strong>Explore regulation →</strong>
+      </a>
+      <a class="card" href="democracy.html">
+        <small>Democracy</small>
+        <h3>Democratic Accountability</h3>
+        <p>Should citizens have a stronger role in governing systems that shape public decisions?</p>
+        <strong>Explore democracy →</strong>
+      </a>
+      <a class="card" href="legal-protection.html">
+        <small>Rule of law</small>
+        <h3>Legal Protection & Recoverability</h3>
+        <p>What happens when automated systems make mistakes — and how can lawful situations be repaired?</p>
+        <strong>Explore legal protection →</strong>
+      </a>
+      <a class="card" href="education.html">
+        <small>Children & young people</small>
+        <h3>Human-Centred AI in Education</h3>
+        <p>How can AI help recognise patterns in youth environments without replacing human relationships?</p>
+        <strong>Explore education →</strong>
+      </a>
+      <a class="card" href="digital-identity.html">
+        <small>Citizenship</small>
+        <h3>Digital Sovereignty</h3>
+        <p>Who owns your digital traces, evidence history, and right to understand systems around you?</p>
+        <strong>Explore identity →</strong>
+      </a>
+      <a class="card" href="architecture.html">
+        <small>Framework</small>
+        <h3>CDP, Core Axioms & Constitutional Architecture</h3>
+        <p>The underlying framework behind governance-before-deployment approaches.</p>
+        <strong>Open framework →</strong>
+      </a>
+    </div>
+  </section>
+
+  <section class="flow">
+    <p class="kicker">How every track works</p>
+    <h2>You do not start with a product. You start with the problem.</h2>
+    <div class="flow-grid">
+      <div class="flow-step">
+        <span>1 · Observe</span>
+        <p>What is already happening?</p>
+      </div>
+      <div class="flow-step">
+        <span>2 · Tension</span>
+        <p>Where do values, rights, capacity, and risk collide?</p>
+      </div>
+      <div class="flow-step">
+        <span>3 · Principles</span>
+        <p>What must remain visible, accountable, and recoverable?</p>
+      </div>
+      <div class="flow-step">
+        <span>4 · Alternatives</span>
+        <p>How could the system be governed differently?</p>
+      </div>
+      <div class="flow-step">
+        <span>5 · Implementation</span>
+        <p>Examples of systems, models, and architectures that could support the alternative.</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <span>AI Constitution · ai-constitution.now</span>
+  <span>Governance Before Deployment</span>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

@@ -44,3 +44,9 @@ h1{font-family:"Playfair Display",Georgia,serif;font-size:clamp(3rem,7vw,6.7rem)
 footer{width:min(1160px,calc(100% - 32px));margin:0 auto;padding:1.5rem 0 2rem;border-top:1px solid rgba(255,255,255,.12);color:rgba(255,255,255,.48);display:flex;gap:1rem;justify-content:space-between;flex-wrap:wrap;font-size:.8rem}
 @media(max-width:900px){.hero,.page-grid{grid-template-columns:1fr}.cards{grid-template-columns:1fr 1fr}.flow-grid{grid-template-columns:1fr}.feature{grid-column:auto}}
 @media(max-width:620px){.topbar{align-items:flex-start;flex-direction:column;padding:1rem 0}.cards{grid-template-columns:1fr}.hero{min-height:auto}}
+
+
+.about-list{margin:1rem 0 1.25rem;padding-left:1.2rem}
+.about-list li{color:var(--muted);line-height:1.7;margin:.25rem 0}
+.contact-line{display:inline-flex;margin-top:.5rem;border:1px solid rgba(45,212,191,.45);background:rgba(45,212,191,.10);border-radius:999px;padding:.85rem 1rem;font-weight:850}
+.contact-line:hover{background:rgba(45,212,191,.18)}

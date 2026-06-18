@@ -1,3 +1,3 @@
-# AI Constitution clean v0.3
+# AI Constitution
 
-Upload all files to repository root.
+Final package with About/Contact, epistemic system design, high-risk complex systems, and neutral voice.

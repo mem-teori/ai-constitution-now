@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://ai-constitution.now/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://ai-constitution.now/da.html</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
-  <url><loc>https://ai-constitution.now/ai-regulation.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-constitution.now/ai-regulation-da.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ai-constitution.now/democracy.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ai-constitution.now/democracy-da.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ai-constitution.now/legal-protection.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ai-constitution.now/legal-protection-da.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ai-constitution.now/education.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ai-constitution.now/education-da.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ai-constitution.now/digital-identity.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ai-constitution.now/digital-identity-da.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ai-constitution.now/architecture.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-constitution.now/ai-regulation.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-constitution.now/architecture-da.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
-  <url><loc>https://ai-constitution.now/implementation.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-constitution.now/architecture.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-constitution.now/da.html</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://ai-constitution.now/democracy-da.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-constitution.now/democracy.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-constitution.now/digital-identity-da.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-constitution.now/digital-identity.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-constitution.now/education-da.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-constitution.now/education.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
   <url><loc>https://ai-constitution.now/implementation-da.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-constitution.now/implementation.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-constitution.now/</loc><changefreq>weekly</changefreq><priority>1.0</priority></url>
+  <url><loc>https://ai-constitution.now/legal-protection-da.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://ai-constitution.now/legal-protection.html</loc><changefreq>weekly</changefreq><priority>0.8</priority></url>
 </urlset>

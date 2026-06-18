@@ -1,3 +1,3 @@
-# AI Constitution
+# AI Constitution clean v0.3
 
-English and Danish public site for AI regulation, democratic accountability, legal protection and responsibility before deployment.
+Upload all files to repository root.

@@ -28,8 +28,7 @@
     const total = support + undecided + oppose;
 
     if(total === 0){
-      results.innerHTML = '<p>No votes recorded yet.</p>';
-      results.classList.add("visible");
+      results.classList.remove("visible");
       return;
     }
 
@@ -38,7 +37,7 @@
       const pct = Math.round((value / total) * 100);
       const chosen = selected === name ? " ✓" : "";
       return '<div class="result-line"><span>'+labels[name]+chosen+'</span><div class="bar"><span style="width:'+pct+'%"></span></div><strong>'+pct+'%</strong></div>';
-    }).join("") + '<p style="margin-top:.75rem;font-size:.85rem;opacity:.8">Votes recorded: '+total+'</p>';
+    }).join("") 
 
     results.classList.add("visible");
   }
